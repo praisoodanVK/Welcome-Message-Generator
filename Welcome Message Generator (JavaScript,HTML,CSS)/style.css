@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+
+body{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(244,31,31,1) 58%, rgba(253,29,29,1) 70%, rgba(252,176,69,1) 93%);
+}
+
+h1{
+    font-family: sans-serif;
+    margin-top:20px;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    color: rgba(255, 255, 255, 0.856);
+    background-color: orange;
+    display: block;
+   
+
+}
+
+
+#greetings{
+        background-color: rgb(0, 0, 0);
+        padding-top: 250px;
+        color: radial-gradient(circle, rgb(241, 44, 130) 0%, rgb(59, 188, 197) 100%);
+
+}
+
+
+.Submitbtn
+{
+    
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 550;
+}
+
+.Submitbtn:hover{
+    background-color: blue;
+    border-color: aliceblue;
+    z-index: 1;
+    
+}
+
+.inputname{
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: hidden;
+    background-color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: 600;
+    z-index: 10;
+    
+    }
+    #Popupmessage{       
+        background-color: black;
+        margin: auto;
+        margin-top: -550px;
+        height: 550px;
+        width: 500px;
+        z-index: 100;
+        display: none;
+        border-radius:50px;
+    }
+
+
+    .Input-nav{      
+        background-color: rgb(53, 50, 50);
+        border-radius: 50px;
+        padding-top: 20px;
+        height:500px;
+        width:450px;
+        margin: auto;
+        margin-top: 60px;
+        box-shadow: 10px 3px 3px 5px rgb(172, 165, 165);
+        z-index: -1;
+
+        
+    }
+
+    
+
+
+
+  
